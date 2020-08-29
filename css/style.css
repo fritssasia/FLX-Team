@@ -1,5 +1,11 @@
+body {
+    font-family: 'Roboto Mono';
+}
+
+/* ============== Header-top ============== */
 .header-top {
     background-image: url(../images/background-img/bg-img.jpg);
+    background-position: center;
     background-size: cover;
     height: 650px;
     width: 100%;
@@ -20,4 +26,10 @@
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
     position: absolute;
     bottom: 0;
+}
+
+.header-top-content h2 {
+    padding-top: 450px;
+    font-family: 'Bebas Neue';
+    color: white;
 }
